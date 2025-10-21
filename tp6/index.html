@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="training.js"></script>
+
+</head>
+
+<body>
+    
+    <h1> TPS Calculatrice </h1>
+
+    <label>Nombre 1</label>
+    <input type="text" name="t1" id="t1" placeholder="saisir un nombre">
+
+    <label>Nombre 2S</label>
+    <input type="text" name="t2" id="t2" placeholder="saisir un nombre">
+
+    <br><br>
+    <button onclick="division()">/</button>
+    <button onclick="addition()">+</button>
+    <button onclick="soustraction()">-</button>
+    <button onclick="multiplication()">x</button>
+    
+    <br><br>
+    <button onclick="permuter()"> permuter</button>
+    <button onclick="parite()"> parite</button>
+    <button onclick="reset()"> reset</button>
+
+    <br><br>
+    <label>resultat :</label>
+    <input type="text" name="resultat" id="resultat" placeholder="resultat" readonly>
+
+    <label> parite :</label>
+    <input type="text" name="parite" id="parite" placeholder="parite" readonly>
+
+</body>
+</html>
